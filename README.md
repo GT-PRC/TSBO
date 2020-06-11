@@ -8,7 +8,6 @@ Please cite our paper if you use the code:
 H. M. Torun, M. Swaminathan, A. Kavungal Davis and M. L. F. Bellaredj, 
 "A Global Bayesian Optimization Algorithm and Its Application to Integrated System Design," 
 
-We tested the code on Matlab 2017a, 2017b, 2018a (Windows 7 & 10 versions).
 The folder should contain following scripts:
 ## Scripts
 TSBO.m <br />
@@ -29,3 +28,6 @@ The output is Dx2x3 matrix.
 Folder: "test_function" <br />
 This contains sample objective functions that can be used to test the algorithm. There are multiple functions defined in the folder.
 These are "Optimization Challenge Functions", each function has different response surface and many local optima.
+
+## System Requirements
+
