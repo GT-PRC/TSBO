@@ -29,4 +29,4 @@ The output is Dx2x3 matrix.
 This folder contains sample objective functions that can be used to test the algorithm. There are multiple functions defined in the folder. These are "Optimization Challenge Functions", each function has different response surface and many local optima.
 
 ## System Requirements
-
+The code is tested using Matlab R2018b and R2019a, and has dependency to "Statistics and Machine Learning Toolbox"
