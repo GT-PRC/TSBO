@@ -7,8 +7,7 @@ For questions and queries, please contact: htorun3@gatech.edu
 Please cite our paper if you use the code:
 H. M. Torun, M. Swaminathan, A. Kavungal Davis and M. L. F. Bellaredj, 
 "A Global Bayesian Optimization Algorithm and Its Application to Integrated System Design," 
-
-The folder should contain following scripts:
+in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 4, pp. 792-802, April 2018.
 ## Scripts
 ###### TSBO.m <br />
 The main code including implementation of TSBO, definition of objective objective function and parameters of TSBO.
