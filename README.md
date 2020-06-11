@@ -1,18 +1,16 @@
-Copyright (c) 2018 Hakki Mert Torun, Georgia Insitute of Technology.
-
-Two-Stage Bayesian Optimization (TSBO) for maximizing a black-box function.
+# Two-Stage Bayesian Optimization (TSBO)
+Copyright (c) 2020 3D Systems Packaging Research Center (PRC), Georgia Insitute of Technology.
 
 This material is based on work supported by NSF I/UCRC Center for Advanced Electronics Through Machine Learning (CAEML).
-For questions and queries, please contact: htorun3@gatech.edu, 404-528-5943
+For questions and queries, please contact: htorun3@gatech.edu
 
 Please cite our paper if you use the code:
 H. M. Torun, M. Swaminathan, A. Kavungal Davis and M. L. F. Bellaredj, 
 "A Global Bayesian Optimization Algorithm and Its Application to Integrated System Design," 
-in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 4, pp. 792-802, April 2018.
----------------------------------------------------------------------------------------------------------------------------
+
 We tested the code on Matlab 2017a, 2017b, 2018a (Windows 7 & 10 versions).
 The folder should contain following scripts:
-
+## Scripts
 --TSBO.m
 The main code including implementation of TSBO, definition of objective objective function and parameters of TSBO.
 The code is commented to explain implementation details and choice of default hyperparameters. Additional details 
