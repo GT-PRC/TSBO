@@ -1,0 +1,490 @@
+# ----------------------------------------------
+# Script Recorded by ANSYS Electronics Desktop Version 2016.1.0
+# 4:32:24  Apr 18, 2017
+# ----------------------------------------------
+import ScriptEnv
+ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
+oDesktop.RestoreWindow()
+oDesktop.OpenProject("C:\Users\htorun3\OneDrive - Georgia Institute of Technology\CPMT_Paper_Codes\TSBO_11_28_2018\HFSS\IVR_inductor.aedt")
+oProject = oDesktop.SetActiveProject("IVR_inductor")
+oDesign = oProject.SetActiveDesign("HFSSDesign6")
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_bottom",
+					"Value:="		, "35um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_ratio",
+					"Value:="		, "0.5"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:s_v",
+					"Value:="		, "91um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_a",
+					"Value:="		, "450um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:g",
+					"Value:="		, "16mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:N",
+					"Value:="		, "4"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:w_v",
+					"Value:="		, "36mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:delta_wm",
+					"Value:="		, "26mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:delta_y_gnd",
+					"Value:="		, "10mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:delta_diel_x",
+					"Value:="		, "50mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:delta_diel_y",
+					"Value:="		, "50mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:delta_diel_z",
+					"Value:="		, "30mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_offset",
+					"Value:="		, "50um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_m_offset",
+					"Value:="		, "100um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:w_a",
+					"Value:="		, "130mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:g_v",
+					"Value:="		, "26mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_c",
+					"Value:="		, "120um"
+				]
+			]
+		]
+	])
+oProject.Save()
+oDesign.AnalyzeAll()
+oModule = oDesign.GetModule("Solutions")
+oModule.ExportNetworkData("delta_diel_x=\'50mil\' delta_diel_y=\'50mil\' delta_diel_z=\'30mil\' delta_wm=\'26mil\' delta_x_gnd=\'11mil\' delta_y_gnd=\'12mil\' g=\'16mil\' g_v=\'26mil\' l_m=\'192mil\' N=\'4\' s_v=\'91um\' t_a=\'450um\' t_c=\'120um\' t_m=\'350um\' t_m_offset=\'100um\' t_offset=\'50um\' w_a=\'130mil\' w_bottom=\'0\' w_m=\'2.5506mm\' w_v=\'36mil\'", ["Setup1:Sweep"], 3, "C:/Users/Hakki/Documents/Prof. Swami/Embedded_Inductor_Optimization/Project1_HFSSDesign6.s2p", 
+	[
+"All"
+	], True, 50, "S", -1, 0, 15, True, True, False)
+oDesign = oProject.SetActiveDesign("Maxwell3DDesign1")
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:s_v",
+					"Value:="		, "41um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:g_v",
+					"Value:="		, "31mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_a",
+					"Value:="		, "251um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:w_a",
+					"Value:="		, "101mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:g",
+					"Value:="		, "11mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:N",
+					"Value:="		, "5"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:w_v",
+					"Value:="		, "16mil"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_c",
+					"Value:="		, "51um"
+				]
+			]
+		]
+	])
+oDesign.ChangeProperty(
+	[
+		"NAME:AllTabs",
+		[
+			"NAME:LocalVariableTab",
+			[
+				"NAME:PropServers", 
+				"LocalVariables"
+			],
+			[
+				"NAME:ChangedProps",
+				[
+					"NAME:t_bottom",
+					"Value:="		, "35um"
+				]
+			]
+		]
+	])
+oProject.Save()
+oDesign.AnalyzeAll()
+oModule = oDesign.GetModule("ReportSetup")
+oModule.ExportToFile("Data Table 1", "C:\Users\htorun3\OneDrive - Georgia Institute of Technology\CPMT_Paper_Codes\TSBO_11_28_2018\HFSS\Rdc.csv")
