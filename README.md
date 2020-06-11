@@ -4,7 +4,7 @@ Copyright (c) 2020 3D Systems Packaging Research Center (PRC), Georgia Insitute 
 This material is based on work supported by NSF I/UCRC Center for Advanced Electronics Through Machine Learning (CAEML).
 For questions and queries, please contact: htorun3@gatech.edu
 
-Please cite our paper if you use the code:
+Please cite our paper if you use the code: <br />
 H. M. Torun, M. Swaminathan, A. Kavungal Davis and M. L. F. Bellaredj, 
 "A Global Bayesian Optimization Algorithm and Its Application to Integrated System Design," 
 in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 4, pp. 792-802, April 2018.
