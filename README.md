@@ -1,5 +1,7 @@
 # Two-Stage Bayesian Optimization (TSBO)
-Copyright (c) 2020 3D Systems Packaging Research Center (PRC), Georgia Insitute of Technology.
+Copyright (c) 2020 <br />
+3D Systems Packaging Research Center (PRC) <br />
+Georgia Insitute of Technology <br />
 
 This material is based on work supported by NSF I/UCRC Center for Advanced Electronics Through Machine Learning (CAEML).
 For questions and queries, please contact: htorun3@gatech.edu
